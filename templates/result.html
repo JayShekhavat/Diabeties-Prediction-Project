@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction </title>
+</head>
+<body align="center" style="background-color:Blue;">
+ <h2 style="background-color:red;">Your Prediction is below</h2>
+
+<p style="background-color:lightGreen">{{prediction}}</p>
+
+ {% if prediction == "You will Dead"%}
+  <img src="static\dead image.jpeg">
+
+  {%else%}
+  <img src="static\happy image.jpeg">
+
+  {%endif%}
+
+
+
+</body>
+</html>
